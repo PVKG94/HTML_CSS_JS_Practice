@@ -1,0 +1,174 @@
+<html>
+    <head>
+        <title>CSS</title>
+        <style>
+            body{
+                background-color: antiquewhite;
+                font-size: 100%;
+            }
+            h1{color: green;}
+            p{color: maroon;}
+            ul{color: rgb(128, 0, 248);
+                font-size: 1.2em;
+            }
+            h1{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+               font-weight: normal;
+               font-style: oblique;
+               text-transform: capitalize;
+            }
+            p {font-family: monospace;
+               font-size: 15px;
+               text-transform: lowercase;
+            }
+            li {font-size: 1.3rem;
+                font-weight: bold;
+                font-style: italic;
+            }
+            h3{color:red;
+                text-transform: uppercase;
+            }
+            #important{text-decoration: underline;}
+            #link{text-decoration: none;}
+            #overline{text-decoration: overline;}
+            #uti{text-decoration: line-through;}
+            #blink{text-decoration: blink;}
+            #multi{text-decoration: underline line-through overline;}
+            #leading{line-height: 1.6;}
+            #rightalign{text-align: right;}
+            #centeralign{text-align: center;}
+            #justify{text-align: justify;}
+            #justify1{text-align: justify;}
+            em{font-size: 2.5em;
+                vertical-align: middle;
+            }
+
+            #spacing{letter-spacing: 10px;
+                     word-spacing: 8px;
+            }
+            
+            #indent{text-indent: 50px;}
+
+            #indent::first-line,#justify1::first-line{color: lawngreen;}
+            #pseudo::first-letter{font-size: 3em;}
+
+            .rank{color: red;}
+            .avg{color: blue;}
+
+            a:link{color: blue;}
+            a:visited{color: black;}
+            a:hover{color: greenyellow;}
+            a:active{color: goldenrod;}
+            a:focus{color: gray;}
+            #clickhere:hover{color: red;}
+            #clickhere:active{color: palevioletred;}
+            #clickhere:focus{color: green;}
+
+            #lefts{text-shadow: -2px 0 0 #FF0000;}
+            #rights{text-shadow: 2px 0 0 red;}
+            #tops{text-shadow: 0 -2px 0 red;}
+            #bottoms{text-shadow: 0 2px 0 red;}
+            #blurs{text-shadow: 0 0 2px red;}
+            #colors{text-shadow: 0 2px 0 green;}
+            #reals{text-shadow: 2px 2px 2px red;}
+
+        </style>
+    </head>
+    <body>
+        <h1>CSS Colors</h1>
+        <p>You can control two colors</p>
+        <ul>
+            <li>background color</li>
+            <li>foreground color
+                <ol>
+                    <li>cricket</li>
+                    <li>chess</li>
+                </ol>
+            </li>
+        </ul>
+
+        <h3>text transform</h3>
+        <p>IT IS USED TO CAPITALIZE THE LETTERS</p>
+        <h1>text content</h1>
+
+        <p><a href="#" id="link">Link</a> are always underlined</p>
+        <p>Is it <span id="important">important</span></p>
+        <p>it is the <span id="overline">overline</span></p>
+        <p><span id="uti">UTI</span> became Axis bank</p>
+        <p>Never <span id="blink">blink</span> your eye while learnig</p>
+        <p>Multiple <span id="multi">decoration</span> in one line</p>
+
+        <p id="leading">this is a simple paragraph that is meant to be nice and easy to type which is why there will be mommas no periods or any capital letters so i guess this means that it cannot really be considered a paragraph but just a series of run on sentences this should help you get faster at typing as im trying not to use too many difficult words in it although i think that i might start making it hard by including some more difficult letters I'm typing pretty quickly so forgive me for any mistakes i think that i will not just tell you a story about the time i went to the zoo and found a monkey and a fox playing together they were so cute and i think that they were not supposed to be in the same cage but they somehow were and i loved watching them horse around forgive the pun well i hope that it has been highly enjoyable typing this paragraph and i wish you the best of luck getting the best score that you possibly can
+        </p>
+
+        <ul>
+            <li id="leftalign">Left</li>
+            <li id="rightalign">Right</li>
+            <li id="centeralign">Center</li>
+            <li id="justify">Justify</li>
+        </ul>
+        <p id="justify1">this is a simple paragraph that is meant to be nice and easy to type which is why there will be mommas no periods or any capital letters so i guess this means that it cannot really be considered a paragraph but just a series of run on sentences this should help you get faster at typing as im trying not to use too many difficult words in it although i think that i might start making it hard by including some more difficult letters I'm typing pretty quickly so forgive me for any mistakes i think that i will not just tell you a story about the time i went to the zoo and found a monkey and a fox playing together they were so cute and i think that they were not supposed to be in the same cage but they somehow were and i loved watching them horse around forgive the pun well i hope that it has been highly enjoyable typing this paragraph and i wish you the best of luck getting the best score that you possibly can
+        </p>
+
+        <p>let us <strong><em>align</em></strong> text in vertical alignment</p>
+
+        <p id="spacing">Let use letter spacing and word spacing</p>
+
+        <p id="indent">this is a simple paragraph that is meant to be nice and easy to type which is why there will be mommas no periods or any capital letters so i guess this means that it cannot really be considered a paragraph but just a series of run on sentences this should help you get faster at typing as im trying not to use too many difficult words in it although i think that i might start making it hard by including some more difficult letters I'm typing pretty quickly so forgive me for any mistakes i think that i will not just tell you a story about the time i went to the zoo and found a monkey and a fox playing together they were so cute and i think that they were not supposed to be in the same cage but they somehow were and i loved watching them horse around forgive the pun well i hope that it has been highly enjoyable typing this paragraph and i wish you the best of luck getting the best score that you possibly can
+        </p>
+
+        <p id="pseudo">Pseudo elements are used to styling by manual style</p>
+
+        <table border="1" cellpadding="5">
+            <tr>
+                <th>HTML</th>
+                <th>CSS</th>
+                <th>JS</th>
+                <th>Rank</th>
+                <th>Average</th>
+            </tr>
+            <tr>
+                <td>95</td>
+                <td>80</td>
+                <td>79</td>
+                <td class="rank">2</td>
+                <td class="avg">89%</td>
+            </tr>
+            <tr>
+                <td>98</td>
+                <td>90</td>
+                <td>78</td>
+                <td class="rank">1</td>
+                <td class="avg">90%</td>
+            </tr>
+            <tr>
+                <td>79</td>
+                <td>80</td>
+                <td>75</td>
+                <td class="rank">3</td>
+                <td class="avg">75%</td>
+            </tr>
+        </table>
+
+        <h1>Pseudo classes</h1>
+        <p><a href="#">Link Test</a></p>
+        <p>In social media <a href="https://www.youtube.com/" target="_blank">Youtube</a> is widely used and in current generation
+           <a href="https://www.Facebook.com/" target="_blank">Facebook</a> users are reduced.
+        </p>
+        
+        <form action="">
+            <p>
+                <label for="email_id">Email:</label><br>
+                <input type="email" name="email_id" id="email_id">
+            </p>
+            <input type="submit" value="Click here" id="clickhere" name="clickhere">
+        </form>
+
+        <h2 id="lefts">left shadow</h2>
+        <h2 id="rights">right shadow</h2>
+        <h2 id="tops">top shadow</h2>
+        <h2 id="bottoms">bottom shadow</h2>
+        <h2 id="blurs">shadow blur</h2>
+        <h2 id="colors">shadow color</h2>
+        <h2 id="reals">combine everything</h2>
+    </body>
+</html> 
